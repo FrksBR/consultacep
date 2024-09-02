@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class EmptyJsonException {
+public class EmptyJsonException extends Throwable {
+    public EmptyJsonException(String respostaJsonVazia) {
+    }
 }
